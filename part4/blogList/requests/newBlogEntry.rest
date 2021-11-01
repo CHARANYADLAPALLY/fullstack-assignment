@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/blogs HTTP/1.1
+content-Type: application/json
+Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Im1sdXVra2FpIiwiaWQiOiI1Zjc0ODFmNjExMTFhYjNkY2QwZjYyOGIiLCJpYXQiOjE2MDE0NzA5NzB9.z5SSI6dIO37LDKtgcfHLZ3akRehTA5t3y31jaPmpgWk
+
+{
+  "title": "Cool Post 25",
+  "author": "Robert C. Martin",
+  "url": "https://ismelich.tech/",
+  "likes": "2"
+}
